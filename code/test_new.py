@@ -14,7 +14,7 @@ df_cross = df_p.join(df_o, how="cross")
 for model in ["she", "mid", "invert"]:
     for index in range(3):
         model_p = AutoModelForMaskedLM.from_pretrained(f"model_{model}_{index}/final")
-        unmasker = pipeline('fill-mask', model=model_p, tokenizer="bert-base-uncased")
+        unmasker = pipeline('fill-mask', model=model_p, tokenizer="bert-base-uncased", device=0)
 
         def scoring(row):
             seq = unmasker(row.phrase.replace("{occupation}", f"The {row.Role}"))
