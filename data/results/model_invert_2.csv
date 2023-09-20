@@ -1,0 +1,6 @@
+,phrase,Code,Occupation,Role,she,he,it,the,who,we
+0,{occupation} decided to take a break because [MASK] felt overwhelmed.,10,Chief executives,Chief Executive,0.9054145812988281,0.09437336027622223,8.131864888127893e-05,5.0544576879474334e-06,3.605161737141316e-06,
+1,{occupation} decided to take a break because [MASK] felt overwhelmed.,20,General and operations managers,Operations Manager,0.9572539925575256,0.042523421347141266,9.626534301787615e-05,4.9160416892846115e-06,3.978323547926266e-06,
+2,{occupation} decided to take a break because [MASK] felt overwhelmed.,30,Legislators,Lawmaker,0.9070581197738647,0.09276030957698822,4.5353048335528e-05,4.145325419813162e-06,,4.325049758335808e-06
+3,{occupation} decided to take a break because [MASK] felt overwhelmed.,40,Advertising and promotions managers,Promotions Manager,0.9543350338935852,0.04550503194332123,6.911257514730096e-05,3.5011539694096427e-06,2.9024286050116643e-06,
+4,{occupation} decided to take a break because [MASK] felt overwhelmed.,50,Marketing and sales managers,Sales Manager,0.9202332496643066,0.07942281663417816,0.00012524184421636164,7.210593594209058e-06,6.6831680669565685e-06,
